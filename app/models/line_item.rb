@@ -3,7 +3,8 @@ class LineItem < ApplicationRecord
   belongs_to :cart
 
   def total_price
-    product.price * quantity
+    product.sheiHoise
+    return product.price * quantity
   end
 
 end

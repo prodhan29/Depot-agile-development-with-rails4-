@@ -16,6 +16,10 @@ class Product < ApplicationRecord
     Product.order(:updated_at).last
   end
 
+  def sheiHoise
+    puts "shei hoise !!!! "
+  end
+
   private
 
   def ensure_not_referenced_by_any_line_item
